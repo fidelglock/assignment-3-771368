@@ -71,7 +71,7 @@ In this case there will be a separate program that detects a critical condition 
 
 In this case the design would be modified slightly to create a dedicated connection between the `master` node and the `Client`.
 
-![](images/bdp-ass2-design-mod.png)
+![](images/bdp-ass3-design-mod.png)
 
 ##### 4. If you want to scale your streaming analytics service for many customers and data, which components would you focus and which techniques you want to use?
 
