@@ -10,7 +10,6 @@
 
 We have used `2018_Yellow_Taxi_Trip_Data.csv` file as an experimental dataset for this assignment. The yellow and green taxi trip records include fields capturing pick-up and drop-off dates/times, pick-up and drop-off locations, trip distances, itemized fares, rate types, payment types, and driver-reported passenger counts. The data used in the attached datasets were collected and provided to the NYC Taxi and Limousine Commission (TLC) by technology providers authorized under the Taxicab & Livery Passenger Enhancement Programs (TPEP/LPEP). The trip data was not created by the TLC, and TLC makes no representations as to the accuracy of these data. The attributes present in this dataset are VendorID, tpep_pickup_datetime, tpep_dropoff_datetime, Passenger_count, Trip_distance, PULocationID, DOLocationID, RateCodeID, Store_and_fwd_flag, Payment_type, Fare_amount, MTA_tax, Improvement_surcharge, Tip_amount, Tolls_amount, Total_amount. It is a quite large dataset which is ideal for this experiment.
 
-![](images/dataset_view.png)
 
 i) For Streaming Analytics, the fare amount is predicted using Linear Regression and sent back to client. This helps the customers to avoid being overcharged due to a pre calculated fare-range. The attributes, `'VendorID', 'passenger_count', 'trip_distance', 'RatecodeID'` have been used to perform Regression
 
